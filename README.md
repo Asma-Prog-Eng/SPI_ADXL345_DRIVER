@@ -18,6 +18,14 @@ Bare metal implementation  of an SPI driver to interface with ADXl345 accelerome
 ### Software
 - STM32CubeIDE or compatible toolchain
 - PulseView (for debugging purpose)
+Reading of the device ID : 
+
+<img width="1515" height="604" alt="image" src="https://github.com/user-attachments/assets/9974e630-c594-4902-92f8-a22f160ae115" />
+
+Reading of data axis 
+
+<img width="1902" height="950" alt="image" src="https://github.com/user-attachments/assets/6e4f1753-33f8-483a-8cf9-bbf833388234" />
+
 
 ## Installation
 1. Clone this repository:
