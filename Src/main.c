@@ -1,4 +1,14 @@
-
+/**
+ ******************************************************************************
+ * @file           : main.c
+ * @author         : Asma Askri
+ * @brief          : Main program body
+ ******************************************************************************
+ * Bare metal SPI Driver implementation to interface with ADXl345 accelerometer
+ * Data axis are read for adxl345 and dislayed on debbuger mode
+ * as well as the device ID
+ ******************************************************************************
+ **/
 #include "stm32f4xx.h"
 
 #include <stdint.h>
