@@ -26,6 +26,8 @@ Reading of data axis
 
 <img width="1902" height="950" alt="image" src="https://github.com/user-attachments/assets/6e4f1753-33f8-483a-8cf9-bbf833388234" />
 
+<img width="1889" height="965" alt="image" src="https://github.com/user-attachments/assets/9bc523a2-840f-4699-8d60-537df6814d1b" />
+
 
 ## Installation
 1. Clone this repository:
