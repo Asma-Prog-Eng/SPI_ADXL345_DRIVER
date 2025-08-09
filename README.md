@@ -3,7 +3,8 @@ Bare metal implementation  of an SPI driver to interface with ADXl345 accelerome
 - SPI2 initialization with peripheral clock = 1MHz.
 - SPI 4-wires enabled for both SPI devices
 - SPI mode 3
-- 8-bit spi data frame 
+- 8-bit spi data frame
+- 3V power supply , available on stm32 board, is used to power on the adxl345 ic
 ## Requirements
 ### Hardware
 - Discovery STM32 development board (STM32F411x series)
@@ -50,6 +51,11 @@ Read data axis : adxl_read_values(DATA_START_ADDR, data_rec,6)
 ├── Core<br />
 ├── Inc<br />  → adxl345.h , spi.h <br />
 ├── Src<br /> → asxl345.c, spi.c <br /> → main.c
+
+SDO <--> MISO (PB14)
+SDA <--> MOSI (PB15)
+SCL <--> SCK (PB13)
+CS  <--> SS  (PD12) 
 
 ## Troubleshooting
 
